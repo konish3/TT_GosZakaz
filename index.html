@@ -33,8 +33,8 @@
             <div class="section-03__content">
               <aside class="section-03__left-block"></aside>
               <div class="section-03__right-block">
-                <article></article>
-                <article></article>
+                <article class="section-03__right-block-item"></article>
+                <article class="section-03__right-block-item"></article>
               </div>
             </div>
           </div>
@@ -73,7 +73,7 @@
           </div>
         </div>
         <div class="viewMore">
-          <button>
+          <button class="viewMore__button">
             Показать еще 6
             <svg
               width="20"
@@ -81,6 +81,7 @@
               viewBox="0 0 20 20"
               fill="white"
               xmlns="http://www.w3.org/2000/svg"
+              class="viewMore__button-svg"
             >
               <g clip-path="url(#clip0_2_1087)">
                 <path
@@ -101,25 +102,27 @@
         <section class="section-04 news">
           <div class="container">
             <div class="news__content">
-              <h2>Популярные новости</h2>
+              <h2 class="news__title">Популярные новости</h2>
               <div class="news_list">
                 <article class="news__item">
-                  <p>ITAM&SAMDay – самая настоящая удача!</p>
-                  <span>13 дек 2020</span>
+                  <p class="news__item-title">
+                    ITAM&SAMDay – самая настоящая удача!
+                  </p>
+                  <span class="news__item-date">13 дек 2020</span>
                 </article>
                 <article class="news__item">
-                  <p>
+                  <p class="news__item-title">
                     Секреты лицензирования. Всё, что вы хотели знать про
                     Microsoft, SAP и ...
                   </p>
-                  <span>10 дек 2020</span>
+                  <span class="news__item-date">10 дек 2020</span>
                 </article>
                 <article class="news__item">
-                  <p>
+                  <p class="news__item-title">
                     Менеджмент XXI века. Надо ли готовиться к изменениям или мы
                     давно ...
                   </p>
-                  <span>5 дек 2020</span>
+                  <span class="news__item-date">5 дек 2020</span>
                 </article>
               </div>
             </div>
@@ -129,15 +132,16 @@
           <div class="container">
             <div class="subscribe__body">
               <div class="subscribe__content">
-                <h2>Подписка на рассылку</h2>
+                <h2 class="subscribe__title">Подписка на рассылку</h2>
 
                 <div class="subscribe__form">
                   <input
                     type="text"
                     name="email"
                     placeholder="Email@gmail.com"
+                    class="subscribe__form-input"
                   />
-                  <button>
+                  <button class="subscribe__form-btn">
                     Подписаться
                     <svg
                       width="20"
@@ -145,6 +149,7 @@
                       viewBox="0 0 20 20"
                       fill="white"
                       xmlns="http://www.w3.org/2000/svg"
+                      class="subscribe__form-btn-svg"
                     >
                       <g clip-path="url(#clip0_2_729)">
                         <path
