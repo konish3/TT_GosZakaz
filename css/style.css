@@ -20,10 +20,10 @@ main {
 
 .photo {
   text-align: center;
-  img {
-    object-fit: cover;
-    width: 100%;
-  }
+}
+.photo__img {
+  object-fit: cover;
+  width: 100%;
 }
 
 /* Section 01  */
